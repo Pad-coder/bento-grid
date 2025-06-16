@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(241, 234, 224);
+}
+.bento-section{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.container {
+    width: 1024px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+
+.product-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    height: 200px;
+
+}
+
+.product-1 .item_1 {
+    grid-column: span 2;
+    background-color: bisque;
+}
+
+.product-1 .item_2{
+    background-color: aqua;
+}
+.product-2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+    row-gap: 10px;
+    height: 400px;
+}
+.item_area_1{
+    grid-column: span 1;
+    grid-row: span 2;
+    background-color: rgb(13, 129, 110);
+}
+.item_area_2{
+    background-color: rgb(37, 168, 66);
+}
+.item_area_3{
+     background-color: rgb(131, 70, 70);
+      grid-column: span 1;
+    grid-row: span 2;
+}
+.item_area_4{
+    background-color: rgb(68, 106, 161);
+     
+}
+
+
+.product-3{
+    height: 200px;
+    background-color: rgb(194, 194, 162);
+}
+
